@@ -1,0 +1,9 @@
+launch:
+
+- node:
+    pkg: "csv_to_rosbag"
+    exec: "csv_to_rosbag_node"
+    name: "csv_to_rosbag_node"
+    param:
+    -
+        from: $(find-pkg-share csv_to_rosbag)/config/params.yaml

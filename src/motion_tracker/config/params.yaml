@@ -1,0 +1,5 @@
+motion_tracker_node:
+  ros__parameters:
+    incoming_imu_data_topic: /imu
+    estimated_odometry_topic: /estimated_odometry
+    refresh_rate_hz: 100

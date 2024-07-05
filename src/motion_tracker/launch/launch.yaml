@@ -1,0 +1,9 @@
+launch:
+
+- node:
+    pkg: motion_tracker
+    exec: motion_tracker_node
+    name: motion_tracker_node
+    param:
+    -
+        from: $(find-pkg-share motion_tracker)/config/params.yaml

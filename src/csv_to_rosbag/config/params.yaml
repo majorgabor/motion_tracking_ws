@@ -1,0 +1,4 @@
+csv_to_rosbag_node:
+  ros__parameters:
+    input_csv_files_folder: /home/gabor/coding/ros2/motion_tracking_ws/imu_phone_3
+    output_bag_file: /home/gabor/coding/ros2/motion_tracking_ws/imu_phone_3_bag
